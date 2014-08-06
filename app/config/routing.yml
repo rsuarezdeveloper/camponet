@@ -1,0 +1,5 @@
+cn_base:
+    resource: "@CNBaseBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
