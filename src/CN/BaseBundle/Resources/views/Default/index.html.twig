@@ -1,1 +1,12 @@
-Hello {{ name }}!
+{%extends '::base.html.twig'%}
+{%block body-%}
+<div class="row-fluid">
+   <br>
+    <div class="well">
+        <h1>Hello {{ name }}!</h1>
+        <p>Pongase las pilas si esta viendo esto!</p>
+    </div>
+
+</div>
+
+{%endblock%}
